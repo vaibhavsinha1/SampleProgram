@@ -1,7 +1,0 @@
-C:\SampleProjects\SampleCode\SampleCode\SampleCode\bin\Debug\SampleCode.exe.config
-C:\SampleProjects\SampleCode\SampleCode\SampleCode\bin\Debug\SampleCode.exe
-C:\SampleProjects\SampleCode\SampleCode\SampleCode\bin\Debug\SampleCode.pdb
-C:\SampleProjects\SampleCode\SampleCode\SampleCode\obj\Debug\SampleCode.csprojAssemblyReference.cache
-C:\SampleProjects\SampleCode\SampleCode\SampleCode\obj\Debug\SampleCode.csproj.CoreCompileInputs.cache
-C:\SampleProjects\SampleCode\SampleCode\SampleCode\obj\Debug\SampleCode.exe
-C:\SampleProjects\SampleCode\SampleCode\SampleCode\obj\Debug\SampleCode.pdb
