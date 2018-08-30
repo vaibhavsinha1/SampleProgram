@@ -23,7 +23,7 @@ namespace SampleCode.LinkedList
         public void PrintAllNode(ListNode head)
         {
             ListNode current = head;
-            while(current != null)
+            while (current != null)
             {
                 Console.WriteLine(current.val);
                 current = current.next;
@@ -45,7 +45,7 @@ namespace SampleCode.LinkedList
             {
                 var n = new ListNode(data);
                 ListNode current = Head;
-                while(current.next != null)
+                while (current.next != null)
                 {
                     current = current.next;
                 }
@@ -96,7 +96,23 @@ namespace SampleCode.LinkedList
             }
             return head;
         }
+        public ListNode Reverse(ListNode head)
+        {
+            ListNode headNew = null;
+            ListNode newNode = null;
+            int count = 1;
+            while (head != null)
+            {
+                newNode = new ListNode(head.val);
+                if(count != 1)
+                    newNode.next = headNew;
+                headNew = newNode;
+                count++;
+                head = head.next;
+            }
 
-        
+            return headNew;
+        }
+
     }
 }

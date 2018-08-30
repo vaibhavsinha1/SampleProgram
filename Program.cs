@@ -74,11 +74,15 @@ namespace SampleCode
             //Console.WriteLine(a);
             //Console.Read();
 
+            //var c = new LinkedListOperation();
+            //var a = c.RemoveNthFromEnd1();
+            //Console.WriteLine(a);
+            //Console.Read();
+
             var c = new LinkedListOperation();
-            var a = c.RemoveNthFromEnd1();
+            var a = c.Reverse();
             Console.WriteLine(a);
             Console.Read();
-
             //int a = 2;
             //bool primenumberLoop = true;
             //bool isPrimeFound = false;

@@ -63,7 +63,27 @@ namespace SampleCode.LinkedList
 
             return "Removed";
         }
-        
+
+        public String Reverse()
+        {
+            var ls = new LinkedList();
+            var head = ls.Add(2);
+            ls.Add(6);
+            ls.Add(16);
+            ls.Add(3);
+            ls.Add(2);
+            ls.Add(8);
+            ls.PrintAllNode(head);
+            Console.ReadKey();
+
+            head = ls.Reverse(head);
+
+            ls.PrintAllNode(head);
+            Console.ReadKey();
+
+            return "Reversed";
+        }
+
 
     }
 }
