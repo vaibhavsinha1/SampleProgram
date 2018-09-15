@@ -84,8 +84,24 @@ namespace SampleCode
             //Console.WriteLine(a);
             //Console.Read();
 
-            var c = new ProductExceptSelf();
-            var a = c.ProductExceptSelf1();
+            //var c = new ProductExceptSelf();
+            //var a = c.ProductExceptSelf1();
+            //Console.WriteLine(a);
+            //Console.Read();
+
+            //var c = new Sum3();
+            //var a = c.Sum31();
+            //Console.WriteLine(a);
+            //Console.Read();
+
+            //var c = new SetMatrixZero();
+            //c.SetMatrixZero1();
+            ////Console.WriteLine(a);
+            //Console.Read();
+
+
+            var c = new Angrams();
+            var a = c.angrams1();
             Console.WriteLine(a);
             Console.Read();
 

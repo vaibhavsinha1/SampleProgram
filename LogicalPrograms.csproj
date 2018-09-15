@@ -43,19 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Array\Easy\ContainDuplicates.cs" />
-    <Compile Include="Array\Easy\Fibannoci.cs" />
-    <Compile Include="Array\Easy\PlusOne.cs" />
-    <Compile Include="Array\Easy\RemoveDuplicates.cs" />
-    <Compile Include="Array\Easy\RotateArray.cs" />
-    <Compile Include="Array\Easy\SingleNumber.cs" />
-    <Compile Include="Array\Easy\TwoSum.cs" />
-    <Compile Include="Array\Hard\ProductExceptSelf.cs" />
+    <Compile Include="Array\Angrams.cs" />
+    <Compile Include="Array\Sum3.cs" />
+    <Compile Include="Array\ContainDuplicates.cs" />
+    <Compile Include="Array\Fibannoci.cs" />
+    <Compile Include="Array\PlusOne.cs" />
+    <Compile Include="Array\RemoveDuplicates.cs" />
+    <Compile Include="Array\RotateArray.cs" />
+    <Compile Include="Array\SingleNumber.cs" />
+    <Compile Include="Array\TwoSum.cs" />
+    <Compile Include="Array\ProductExceptSelf.cs" />
+    <Compile Include="BinaryTree\BinaryTree.cs" />
+    <Compile Include="CustomClass.cs" />
     <Compile Include="LinkedList\LinkedListOperation.cs" />
     <Compile Include="LinkedList\LinkedList.cs" />
+    <Compile Include="Matrix\PrintMatrix.cs" />
+    <Compile Include="Matrix\SetMatrixZero.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strings\FirstUniqChar.cs" />
+    <Compile Include="Strings\LongestSubString.cs" />
     <Compile Include="Strings\Palindrome.cs" />
     <Compile Include="Strings\Str.cs" />
     <Compile Include="Strings\StringReverse.cs" />
