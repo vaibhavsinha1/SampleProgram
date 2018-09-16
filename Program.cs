@@ -100,8 +100,13 @@ namespace SampleCode
             //Console.Read();
 
 
-            var c = new Angrams();
-            var a = c.angrams1();
+            //var c = new Angrams();
+            //var a = c.angrams1();
+            //Console.WriteLine(a);
+            //Console.Read();
+
+            var c = new LongestSubString();
+            var a = c.LongestSubString1();
             Console.WriteLine(a);
             Console.Read();
 
