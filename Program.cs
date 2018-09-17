@@ -105,9 +105,28 @@ namespace SampleCode
             //Console.WriteLine(a);
             //Console.Read();
 
-            var c = new LongestSubString();
-            var a = c.LongestSubString1();
-            Console.WriteLine(a);
+            //var c = new LongestSubString();
+            //var a = c.LongestSubString1();
+            //Console.WriteLine(a);
+            //Console.Read();
+
+            var b =new BinaryTree();
+            b.Insert(3);
+            b.Insert(4);
+            b.Insert(7);
+            b.Insert(5);
+            b.Insert(2);
+            b.Insert(1);
+            //b.Insert(10);
+            //b.Insert(12);
+
+
+            b.InOrderTraversal(b.root);
+            Console.Read();
+            b.PreOrderTraversal(b.root);
+            Console.Read();
+
+            b.PostOrderTraversal(b.root);
             Console.Read();
 
             //int a = 2;
