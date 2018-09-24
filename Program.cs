@@ -110,6 +110,7 @@ namespace SampleCode
             //Console.WriteLine(a);
             //Console.Read();
 
+            /*
             var b =new BinaryTree();
             b.Insert(3);
             b.Insert(4);
@@ -128,6 +129,20 @@ namespace SampleCode
 
             b.PostOrderTraversal(b.root);
             Console.Read();
+            */
+
+
+            //var c = new Expression();
+            //var a = c.IsParenthesisBalanced();
+            //Console.WriteLine(a);
+            //Console.Read();
+
+            var c = new GreatestElementOnRight();
+            c.GreatestElementOnRight1();
+            //Console.WriteLine(a);
+            Console.Read();
+
+            
 
             //int a = 2;
             //bool primenumberLoop = true;
