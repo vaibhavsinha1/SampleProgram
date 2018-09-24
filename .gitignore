@@ -1,3 +1,4 @@
 /bin
 /obj
-/.vs/SampleProgram/v15/Server/sqlite3
+/.vs/LogicalPrograms/v15/Server/sqlite3
+*.suo
