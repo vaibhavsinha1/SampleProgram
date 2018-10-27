@@ -104,7 +104,7 @@ namespace SampleCode.LinkedList
             while (head != null)
             {
                 newNode = new ListNode(head.val);
-                if(count != 1)
+                if (count != 1)
                     newNode.next = headNew;
                 headNew = newNode;
                 count++;
@@ -114,5 +114,59 @@ namespace SampleCode.LinkedList
             return headNew;
         }
 
+        public ListNode OddEven(ListNode head)
+        {
+            if (head == null)
+                return head;
+            ListNode headOdd = null;
+            ListNode headEven = null;
+            ListNode newHead = null;
+            ListNode NewEvenHead = null;
+            ListNode newNode = null;
+            int count = 1;
+            int loopOdd = 1;
+            int loopEven = 1;
+            while (head != null)
+            {
+                newNode = new ListNode(head.val);
+                if (count % 2 == 1)//odd
+                {
+                    if (loopOdd == 1)
+                    {
+                        headOdd = newNode;
+                        newHead = headOdd;
+                    }
+                    else
+                    {
+                        
+                        headOdd.next = newNode;
+                        headOdd = headOdd.next;
+                    }
+                    loopOdd++;
+                }
+                else
+                {
+                    if (loopEven == 1)
+                    {
+                        headEven = newNode;
+                        NewEvenHead = headEven;
+                    }
+                    else
+                    {
+                        headEven.next = newNode;
+                        headEven = headEven.next;
+
+                    }
+                    loopEven++;
+
+                }
+
+                head = head.next;
+                count++;
+            }
+            headOdd.next = NewEvenHead;
+
+            return newHead;
+        }
     }
 }

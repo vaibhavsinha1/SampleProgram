@@ -84,6 +84,12 @@ namespace SampleCode
             //Console.WriteLine(a);
             //Console.Read();
 
+
+            var c = new LinkedListOperation();
+            var a = c.OddEvenLinkedList();
+            Console.WriteLine(a);
+            Console.Read();
+
             //var c = new ProductExceptSelf();
             //var a = c.ProductExceptSelf1();
             //Console.WriteLine(a);
@@ -149,11 +155,15 @@ namespace SampleCode
             //Console.WriteLine(a);
             //Console.Read();
 
-            var c = new SearchForRange();
-            var a = c.SearchForRange1();
-            Console.WriteLine(a);
-            Console.Read();
+            //var c = new SearchForRange();
+            //var a = c.SearchForRange1();
+            //Console.WriteLine(a);
+            //Console.Read();
 
+            //var c = new CoinChange();
+            //var a = c.CoinChange2();
+            //Console.WriteLine(a);
+            //Console.Read();
 
             //int a = 2;
             //bool primenumberLoop = true;

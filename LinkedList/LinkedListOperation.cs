@@ -84,6 +84,27 @@ namespace SampleCode.LinkedList
             return "Reversed";
         }
 
+        public String OddEvenLinkedList()
+        {
+            var ls = new LinkedList();
+            var head = ls.Add(2);
+            ls.Add(1);
+            ls.Add(3);
+            ls.Add(5);
+            ls.Add(6);
+            ls.Add(4);
+            ls.Add(7);
 
+            ls.PrintAllNode(head);
+            Console.ReadKey();
+
+            head = ls.OddEven(head);
+
+            ls.PrintAllNode(head);
+            Console.ReadKey();
+
+
+            return "OddEven";
+        }
     }
 }
