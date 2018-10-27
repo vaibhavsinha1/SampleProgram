@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\SearchForRange.cs" />
     <Compile Include="Array\Angrams.cs" />
     <Compile Include="Array\GreatestElementOnRight.cs" />
     <Compile Include="Array\Sum3.cs" />
@@ -59,6 +60,7 @@
     <Compile Include="LinkedList\LinkedListOperation.cs" />
     <Compile Include="LinkedList\LinkedList.cs" />
     <Compile Include="Matrix\PrintMatrix.cs" />
+    <Compile Include="Matrix\ContainerWithMostWater.cs" />
     <Compile Include="Matrix\SetMatrixZero.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

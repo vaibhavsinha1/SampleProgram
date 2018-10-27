@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SampleCode
 {
-   public  class ProductExceptSelf
+    /// <summary>
+    /// https://leetcode.com/explore/interview/card/top-interview-questions-hard/116/array-and-strings/827/
+    /// </summary>
+    public class ProductExceptSelf
     {
         int[] nums = { 1, 2, 3, 4 };
         public int[] ProductExceptSelf1()

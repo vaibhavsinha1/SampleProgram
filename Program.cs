@@ -137,12 +137,23 @@ namespace SampleCode
             //Console.WriteLine(a);
             //Console.Read();
 
-            var c = new GreatestElementOnRight();
-            c.GreatestElementOnRight1();
+            //var c = new GreatestElementOnRight();
+            //c.GreatestElementOnRight1();
+            ////Console.WriteLine(a);
+            //Console.Read();
+
+
+
+            //var c = new ContainerWithMostWater();
+            //var a = c.FindArea();
             //Console.WriteLine(a);
+            //Console.Read();
+
+            var c = new SearchForRange();
+            var a = c.SearchForRange1();
+            Console.WriteLine(a);
             Console.Read();
 
-            
 
             //int a = 2;
             //bool primenumberLoop = true;
