@@ -85,10 +85,21 @@ namespace SampleCode
             //Console.Read();
 
 
-            var c = new LinkedListOperation();
-            var a = c.OddEvenLinkedList();
+            //var c = new LinkedListOperation();
+            //var a = c.OddEvenLinkedList();
+            //Console.WriteLine(a);
+            //Console.Read();
+
+            //var c = new PalindromePartitioning();
+            //var a = c.TestP();
+            //Console.WriteLine(a);
+            //Console.Read();
+
+            var c = new AmazonDemoQues1();
+            var a = c.RAmazonQ2();
             Console.WriteLine(a);
             Console.Read();
+
 
             //var c = new ProductExceptSelf();
             //var a = c.ProductExceptSelf1();
@@ -130,6 +141,7 @@ namespace SampleCode
 
             b.InOrderTraversal(b.root);
             Console.Read();
+            /*
             b.PreOrderTraversal(b.root);
             Console.Read();
 

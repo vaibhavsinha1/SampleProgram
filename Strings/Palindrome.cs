@@ -5,21 +5,21 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace SampleCode.Strings
+namespace SampleCode
 {
     public class Palindrome
     {
-        String s = "civic";
-        public bool Palindrome2()
+        String s2 = "civic";
+        public bool Palindrome2(String s1)
         {
 
-            string r = s;
+            string r = s1;
             bool b = false;
-            b  = r.Reverse().Equals(s);
+            b  = r.Reverse().Equals(s1);
 
             return b;
         }
-        public bool Palindrome1()
+        public bool Palindrome1(String s)
         {
             s= s.ToLower();
             bool b = true;
