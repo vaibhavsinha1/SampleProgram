@@ -57,8 +57,10 @@
     <Compile Include="Array\TwoSum.cs" />
     <Compile Include="Array\ProductExceptSelf.cs" />
     <Compile Include="BackTracking\PalindromePartitioning.cs" />
+    <Compile Include="BackTracking\LettersPhoneNumber.cs" />
     <Compile Include="BinaryTree\BinaryTree.cs" />
     <Compile Include="CustomClass.cs" />
+    <Compile Include="DynamicProgramming\UniquePath.cs" />
     <Compile Include="DynamicProgramming\CoinChange.cs" />
     <Compile Include="LinkedList\LinkedListOperation.cs" />
     <Compile Include="LinkedList\LinkedList.cs" />

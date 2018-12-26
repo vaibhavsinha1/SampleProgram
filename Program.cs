@@ -95,10 +95,10 @@ namespace SampleCode
             //Console.WriteLine(a);
             //Console.Read();
 
-            var c = new AmazonDemoQues1();
-            var a = c.RAmazonQ2();
-            Console.WriteLine(a);
-            Console.Read();
+            //var c = new AmazonDemoQues1();
+            //var a = c.RAmazonQ2();
+            //Console.WriteLine(a);
+            //Console.Read();
 
 
             //var c = new ProductExceptSelf();
@@ -176,6 +176,16 @@ namespace SampleCode
             //var a = c.CoinChange2();
             //Console.WriteLine(a);
             //Console.Read();
+
+            //var c = new UniquePath();
+            //var a = c.UniquePath1(7,3);
+            //Console.WriteLine(a);
+            //Console.Read();
+
+            var c = new LettersPhoneNumber();
+            var a = c.LettersPhoneNumber1("234");
+            Console.WriteLine(a);
+            Console.Read();
 
             //int a = 2;
             //bool primenumberLoop = true;
