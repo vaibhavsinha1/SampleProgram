@@ -182,8 +182,14 @@ namespace SampleCode
             //Console.WriteLine(a);
             //Console.Read();
 
-            var c = new LettersPhoneNumber();
-            var a = c.LettersPhoneNumber1("234");
+            //var c = new LettersPhoneNumber();
+            //var a = c.LettersPhoneNumber1("234");
+            //Console.WriteLine(a);
+            //Console.Read();
+
+            var c = new LongestCommonPrefix();
+            String[] str = { "c", "c"};
+            var a = c.LongestCommonPrefix1(str);
             Console.WriteLine(a);
             Console.Read();
 
