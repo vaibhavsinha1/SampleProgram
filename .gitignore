@@ -2,3 +2,7 @@
 /obj
 /.vs/LogicalPrograms/v15/Server/sqlite3
 *.suo
+/AlgorithmTest/AlgorithmTest/bin/Debug
+/AlgorithmTest/AlgorithmTest/obj/Debug
+/packages
+/.vs/LogicalPrograms/v16/TestStore/0

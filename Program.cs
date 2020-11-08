@@ -187,9 +187,24 @@ namespace SampleCode
             //Console.WriteLine(a);
             //Console.Read();
 
-            var c = new LongestCommonPrefix();
-            String[] str = { "c", "c"};
-            var a = c.LongestCommonPrefix1(str);
+            //var c = new LongestCommonPrefix();
+            //String[] str = { "c", "c"};
+            //var a = c.LongestCommonPrefix1(str);
+            //Console.WriteLine(a);
+            //Console.Read();
+
+            //var c = new ReverseString();
+            //var a = c.ReverseString1();
+            //Console.WriteLine(a);
+            //Console.Read();
+
+            //var c = new ReverseWord();
+            //var a = c.ReverseWord1();
+            //Console.WriteLine(a);
+            //Console.Read();
+
+            var c = new ReverseWordStringII();
+            var a = c.ReverseWordStringII1();
             Console.WriteLine(a);
             Console.Read();
 

@@ -54,7 +54,7 @@ namespace SampleCode
 
         private bool isAlphaNumeric(char a)
         {
-            return Regex.IsMatch(a.ToString(), "[a-z0-9]", RegexOptions.IgnoreCase); ;
+            return Regex.IsMatch(a.ToString(), "[a-z0-9]", RegexOptions.IgnoreCase);
         }
 
     }
