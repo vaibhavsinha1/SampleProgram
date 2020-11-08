@@ -203,8 +203,13 @@ namespace SampleCode
             //Console.WriteLine(a);
             //Console.Read();
 
-            var c = new ReverseWordStringII();
-            var a = c.ReverseWordStringII1();
+            //var c = new ReverseWordStringII();
+            //var a = c.ReverseWordStringII1();
+            //Console.WriteLine(a);
+            //Console.Read();
+
+            var c = new StringToInteger();
+            var a = c.StringToInteger1();
             Console.WriteLine(a);
             Console.Read();
 

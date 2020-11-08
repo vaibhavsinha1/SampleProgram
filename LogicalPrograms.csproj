@@ -80,6 +80,8 @@
     <Compile Include="Strings\ReverseWordStringII.cs" />
     <Compile Include="Strings\Str.cs" />
     <Compile Include="Strings\StringReverse.cs" />
+    <Compile Include="Strings\StringToInteger.cs" />
+    <Compile Include="Strings\ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
