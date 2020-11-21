@@ -127,7 +127,7 @@ namespace SampleCode
             //Console.WriteLine(a);
             //Console.Read();
 
-            /*
+            
             var b =new BinaryTree();
             b.Insert(3);
             b.Insert(4);
@@ -208,10 +208,10 @@ namespace SampleCode
             //Console.WriteLine(a);
             //Console.Read();
 
-            var c = new StringToInteger();
-            var a = c.StringToInteger1();
-            Console.WriteLine(a);
-            Console.Read();
+            //var c = new StringToInteger();
+            //var a = c.StringToInteger1();
+            //Console.WriteLine(a);
+            //Console.Read();
 
             //int a = 2;
             //bool primenumberLoop = true;

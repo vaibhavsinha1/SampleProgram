@@ -49,6 +49,8 @@ namespace SampleCode
                 i++;
             }
 
+            if (st.Count > 0)
+                isValid = false;
             return isValid;
         }
     }

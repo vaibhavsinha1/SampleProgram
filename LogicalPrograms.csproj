@@ -70,6 +70,7 @@
     <Compile Include="Matrix\SetMatrixZero.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sorting\SortColors.cs" />
     <Compile Include="Stack\Expression.cs" />
     <Compile Include="Strings\FirstUniqChar.cs" />
     <Compile Include="Strings\LongestCommonPrefix.cs" />

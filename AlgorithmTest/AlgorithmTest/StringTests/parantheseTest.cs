@@ -19,6 +19,8 @@ namespace AlgorithmTest.StringTests
 
         [TestMethod]
         [DataRow("([]{{)")]
+        [DataRow("(")]
+        [DataRow("([")]
         public void ParantheseTest_False(String s)
         {
             var p = new ValidParentheses();
