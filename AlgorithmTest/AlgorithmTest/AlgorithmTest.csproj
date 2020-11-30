@@ -61,6 +61,7 @@
     <Compile Include="StringTests\ParantheseTest.cs" />
     <Compile Include="StringTests\FirstUniqueCharTest.cs" />
     <Compile Include="StringTests\LongestCommonWords.cs" />
+    <Compile Include="StringTests\UnitTest1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

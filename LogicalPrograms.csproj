@@ -75,6 +75,7 @@
     <Compile Include="Sorting\SortColors.cs" />
     <Compile Include="Stack\Expression.cs" />
     <Compile Include="Strings\FirstUniqChar.cs" />
+    <Compile Include="Strings\GroupAngrams.cs" />
     <Compile Include="Strings\LongestCommonPrefix.cs" />
     <Compile Include="Strings\LongestCommonWords.cs" />
     <Compile Include="Strings\LongestSubString.cs" />
