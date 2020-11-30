@@ -127,20 +127,20 @@ namespace SampleCode
             //Console.WriteLine(a);
             //Console.Read();
 
-            
-            var b =new BinaryTree();
-            b.Insert(3);
-            b.Insert(4);
-            b.Insert(7);
-            b.Insert(5);
-            b.Insert(2);
-            b.Insert(1);
-            //b.Insert(10);
-            //b.Insert(12);
+
+            //var b =new BinaryTree();
+            //b.Insert(3);
+            //b.Insert(4);
+            //b.Insert(7);
+            //b.Insert(5);
+            //b.Insert(2);
+            //b.Insert(1);
+            ////b.Insert(10);
+            ////b.Insert(12);
 
 
-            b.InOrderTraversal(b.root);
-            Console.Read();
+            //b.InOrderTraversal(b.root);
+            //Console.Read();
             /*
             b.PreOrderTraversal(b.root);
             Console.Read();
@@ -203,10 +203,10 @@ namespace SampleCode
             //Console.WriteLine(a);
             //Console.Read();
 
-            //var c = new ReverseWordStringII();
-            //var a = c.ReverseWordStringII1();
-            //Console.WriteLine(a);
-            //Console.Read();
+            var c = new ReverseWordStringII();
+            var a = c.ReverseWordStringII1();
+            Console.WriteLine(a);
+            Console.Read();
 
             //var c = new StringToInteger();
             //var a = c.StringToInteger1();

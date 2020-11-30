@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace SampleCode
 {
+    //https://leetcode.com/explore/interview/card/microsoft/30/array-and-strings/213/
     public class ReverseWordStringII
     {
         private char[] s = { 'H', 'e', 'l', 'l', 'o',' ', 'h', 'o', 'w' };
@@ -14,7 +15,7 @@ namespace SampleCode
 
         public char[] ReverseWordStringII1()
         {
-             Reverse(ref s, 0, s.Length-1);
+            Reverse(ref s, 0, s.Length-1);
             Console.WriteLine(s);
             Console.Read();
             ReverseWord(ref s);

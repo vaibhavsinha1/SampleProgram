@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace SampleCode
 {
+    //Asked in Wayfair
     public class LongestCommonWords
     {
         string[] user0 = { "Hello", "Sample1", "Sample2", "Sample3", "Samplex", "Sampley", "Samplez" };

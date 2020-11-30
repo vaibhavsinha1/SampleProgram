@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace SampleCode
 {
+    //https://leetcode.com/explore/interview/card/microsoft/30/array-and-strings/166/
     public class ReverseWord
     {
         public string s ="  Hello how     are you";

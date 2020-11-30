@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace SampleCode
 {
+    //https://leetcode.com/explore/interview/card/microsoft/30/array-and-strings/171/
     public class StringToInteger
     {
         private string str = "ere456";
