@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace SampleCode
 {
+    //https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/883/
     public class Palindrome
     {
         String s2 = "civic";

@@ -59,6 +59,8 @@
     <Compile Include="SortingTest\MergeSortTest.cs" />
     <Compile Include="StringTests\PalindromeTest.cs" />
     <Compile Include="StringTests\ParantheseTest.cs" />
+    <Compile Include="StringTests\FirstUniqueCharTest.cs" />
+    <Compile Include="StringTests\LongestCommonWords.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

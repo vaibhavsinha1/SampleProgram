@@ -6,22 +6,27 @@ using System.Threading.Tasks;
 
 namespace SampleCode.Strings
 {
+    //https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/881/
     public class FirstUniqChar
     {
-        private string s = "loveleetcode";
+        //private string s = "loveleetcode";
 
-        public int FirstUniqChar1()
+        public int FirstUniqChar1(String s)
         {
             int index = -1;
             char[] a = new char[26];
             for(int i=0; i<s.Length; i++)
             {
                 var b = s.ElementAt(i);
-                
-                a[s.ElementAt(i) - 'a']++; 
+                //a[s.ElementAt(i) - 'a']++;
+
+                int v = s.ElementAt(i) - 'a';
+
+                a[v]++;
+
             }
 
-            for(int i=0; i<s.Length;i++)
+            for (int i=0; i<s.Length;i++)
             {
                 if (a[s.ElementAt(i) - 'a'] == 1)
                 {
@@ -34,7 +39,7 @@ namespace SampleCode.Strings
         }
 
         //This will be the unique character in the sort order.
-        public int FirstUniqChar2()
+        public int FirstUniqChar2(String s)
         {
             int index = -1;
             char[] chara = SortString(s);

@@ -76,6 +76,7 @@
     <Compile Include="Stack\Expression.cs" />
     <Compile Include="Strings\FirstUniqChar.cs" />
     <Compile Include="Strings\LongestCommonPrefix.cs" />
+    <Compile Include="Strings\LongestCommonWords.cs" />
     <Compile Include="Strings\LongestSubString.cs" />
     <Compile Include="Strings\Palindrome.cs" />
     <Compile Include="Strings\ReverseString.cs" />
