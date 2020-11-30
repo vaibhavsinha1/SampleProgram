@@ -101,10 +101,10 @@ namespace SampleCode
             //Console.Read();
 
 
-            //var c = new ProductExceptSelf();
-            //var a = c.ProductExceptSelf1();
-            //Console.WriteLine(a);
-            //Console.Read();
+            var c = new ProductExceptSelf();
+            var a = c.ProductExceptSelf1();
+            Console.WriteLine(a);
+            Console.Read();
 
             //var c = new Sum3();
             //var a = c.Sum31();
@@ -203,10 +203,10 @@ namespace SampleCode
             //Console.WriteLine(a);
             //Console.Read();
 
-            var c = new ReverseWordStringII();
-            var a = c.ReverseWordStringII1();
-            Console.WriteLine(a);
-            Console.Read();
+            //var c = new ReverseWordStringII();
+            //var a = c.ReverseWordStringII1();
+            //Console.WriteLine(a);
+            //Console.Read();
 
             //var c = new StringToInteger();
             //var a = c.StringToInteger1();

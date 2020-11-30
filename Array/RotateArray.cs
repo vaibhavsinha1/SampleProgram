@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace SampleCode
 {
+    //https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/646/
     public class RotateArray
     {
         int[] nums = { 1, 2, 3, 4, 5, 6, 7 };
@@ -21,7 +22,6 @@ namespace SampleCode
                     nums[j] = nums[j - 1];
                 }
                 nums[0] = n;
-
             }
             return nums;
         }

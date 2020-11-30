@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace SampleCode
 {
+    //https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/578/
     public class ContainDuplicates
     {
         int[] nums = { 1, 2, 3, 4,5,4 };

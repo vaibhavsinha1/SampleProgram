@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SampleCode
 {
-   public  class SingleNumber
+    //https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/549/
+    public class SingleNumber
     {
         int[] nums = { 1,1, 4, 4, 2, 3, 3};
         
