@@ -8,7 +8,7 @@ namespace AlgorithmTest.StringTests
     {
         [TestMethod]
         //[DataRow(new string[] { "Hello", "Sample1", "Sample2", "Sample3", "Samplex", "Sampley", "Samplez" })]
-        //[DataRow(new string[] { "Hello1", "Samplen", "Sample2", "Sample3", "Samplex", "Samplex", "Sampley" })]
+        [DataRow(new string[] { "Hello1", "Samplen", "Sample2", "Sample3", "Samplex", "Samplex", "Sampley" })]
         public void LongestCommonWordTest_True()
         {
             var c = new SampleCode.LongestCommonWords();

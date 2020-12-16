@@ -101,10 +101,11 @@ namespace SampleCode
             //Console.Read();
 
 
-            var c = new ProductExceptSelf();
-            var a = c.ProductExceptSelf1();
-            Console.WriteLine(a);
-            Console.Read();
+            //var c = new ProductExceptSelf();
+            //var a = c.ProductExceptSelf1();
+            //Console.WriteLine(a);
+            //Console.Read();
+
 
             //var c = new Sum3();
             //var a = c.Sum31();
@@ -116,6 +117,26 @@ namespace SampleCode
             ////Console.WriteLine(a);
             //Console.Read();
 
+            //var s = new SampleCode.BinaryTreeTest1.BinaryTreeTest();
+            //var tree = s.CreateTree();
+            ////s.InorderTraversal(tree.Root);
+            //s.LevelTraversal(tree.Root);
+            //Console.Read();
+
+            //var s = new SampleCode.BinaryTreeTest1.BinaryTreeTest();
+            //var tree = s.CreateTree();
+            //s.PrintZigZagTraversal(tree.Root);
+            //Console.Read();
+
+            var s = new SampleCode.BinaryTreeTest1.BinaryTreeTest();
+            var tree = s.CreateTree();
+            
+            s.ConnectNode(tree.Root);
+            Console.Read();
+
+            //var s = new SampleCode.MoveZeros();
+            //s.MoveZerosTest();
+            //Console.Read();
 
             //var c = new Angrams();
             //var a = c.angrams1();

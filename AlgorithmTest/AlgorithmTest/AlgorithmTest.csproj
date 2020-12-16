@@ -53,6 +53,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinaryTree\UnitTest1.cs" />
+    <Compile Include="LinkList\LinkListCycleTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchTest\SearchTest.cs" />
     <Compile Include="SortingTest\SortingColorTest.cs" />
